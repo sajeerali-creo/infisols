@@ -1,0 +1,150 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, ../sass/layout/_banners.scss */
+#banner {
+  width: 100%;
+  height: 100vh;
+  background: #e1e1e1;
+  background-image: url(../img/home/banner.jpg);
+  background-attachement: fixed;
+  text-decoration: none;
+  padding-top: 150px; }
+  /* line 10, ../sass/layout/_banners.scss */
+  #banner h1 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: left;
+    color: #fff; }
+  /* line 18, ../sass/layout/_banners.scss */
+  #banner span {
+    width: 50px;
+    height: 5px;
+    background: #fff;
+    opacity: 0.5;
+    display: block; }
+  /* line 25, ../sass/layout/_banners.scss */
+  #banner p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    color: #fff; }
+  /* line 34, ../sass/layout/_banners.scss */
+  #banner .bt-transparat {
+    width: 160px;
+    height: 45px;
+    border-radius: 3px;
+    background: transparent;
+    border: 0.2px solid #fff; }
+
+/* line 2, ../sass/layout/_buttons.scss */
+.normal_bt {
+  width: 128px;
+  height: 45px;
+  border-radius: 3px;
+  background: linear-gradient(#fa6849 0%, #f84656 100%);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border: none; }
+  /* line 13, ../sass/layout/_buttons.scss */
+  .normal_bt:hover {
+    background: #f84656;
+    cursor: pointer; }
+
+/* line 1, ../sass/layout/_header.scss */
+header {
+  position: absolute;
+  z-index: 8;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  padding-top: 25px; }
+  /* line 9, ../sass/layout/_header.scss */
+  header .logo {
+    display: block; }
+    /* line 11, ../sass/layout/_header.scss */
+    header .logo img {
+      width: 180px;
+      height: auto; }
+  /* line 16, ../sass/layout/_header.scss */
+  header .navigation_main {
+    float: right; }
+    /* line 18, ../sass/layout/_header.scss */
+    header .navigation_main li {
+      display: inline-block; }
+      /* line 20, ../sass/layout/_header.scss */
+      header .navigation_main li a {
+        font-family: Poppins;
+        font-size: 16px;
+        color: #fff;
+        opacity: 0.5;
+        padding: 0px 8px; }
+        /* line 26, ../sass/layout/_header.scss */
+        header .navigation_main li a:hover {
+          color: #fff;
+          opacity: 1; }

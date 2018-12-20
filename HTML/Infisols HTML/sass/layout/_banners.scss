@@ -1,0 +1,43 @@
+#banner{
+	width: 100%;
+	height: 100vh;
+	background: #e1e1e1;
+	background-image: url(../img/home/banner.jpg);
+	background-attachement: fixed;
+	text-decoration: none;
+	padding-top: 150px;
+
+	h1{
+		font-family: Poppins;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 50px;
+		text-align: left;
+		color: #fff;
+	}
+	span{
+		width: 50px;
+		height: 5px;
+		background: #fff;
+		opacity: 0.5;
+		display: block;
+	}
+	p{
+		font-family: Poppins;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 30px;
+		text-align: left;
+		color: #fff;
+
+	}
+	.bt-transparat{
+		width: 160px;
+		height: 45px;
+		border-radius: 3px;
+		background: transparent;
+		border: 0.2px solid #fff;
+
+	}
+}
+

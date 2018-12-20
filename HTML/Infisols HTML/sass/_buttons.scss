@@ -1,0 +1,22 @@
+
+.normal_bt{
+	width: 128px;
+	height: 45px;
+	border-radius: 3px;
+	background: linear-gradient(#fa6849 0%, #f84656 100%);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	border:none;
+	&:hover{
+		background: #f84656;
+		cursor: pointer;
+	}
+}
+
+
+
+
+
