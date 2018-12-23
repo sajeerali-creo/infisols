@@ -3,9 +3,10 @@
 	height: 100vh;
 	background: #e1e1e1;
 	background-image: url(../img/home/banner.jpg);
-	background-attachement: fixed;
+	background-attachment: fixed;
 	text-decoration: none;
 	padding-top: 150px;
+	background-size: cover;
 
 	h1{
 		font-family: Poppins;
@@ -21,6 +22,7 @@
 		background: #fff;
 		opacity: 0.5;
 		display: block;
+		margin-top: $sp40;
 	}
 	p{
 		font-family: Poppins;
@@ -29,6 +31,7 @@
 		line-height: 30px;
 		text-align: left;
 		color: #fff;
+		margin-top: $sp20;
 
 	}
 	.bt-transparat{
@@ -36,8 +39,20 @@
 		height: 45px;
 		border-radius: 3px;
 		background: transparent;
-		border: 0.2px solid #fff;
-
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		color: $white;
+		margin-top: $sp60;
+		i{
+			color: $white;
+			display: inline-block;
+			padding-left: 10px;
+		}
+		&:hover{
+			cursor: pointer;
+			i{
+				padding-left: 20px;
+			}
+		}
 	}
 }
 

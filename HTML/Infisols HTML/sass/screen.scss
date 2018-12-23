@@ -6,11 +6,12 @@
 @import "compass/reset";
 @import '_variables.scss';
 
+@import 'layout/_main.scss';
 @import 'layout/_banners.scss';
 @import 'layout/_buttons.scss';
 @import 'layout/_footer.scss';
 @import 'layout/_spacing.scss';
 @import 'layout/_header.scss';
-
+@import 'layout/_responsive.scss';
 
 

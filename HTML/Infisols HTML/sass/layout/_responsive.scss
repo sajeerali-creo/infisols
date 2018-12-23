@@ -1,0 +1,24 @@
+/* Respopnsive breakpoint */
+// ============bigScreen===========
+@media all and (max-width: 991px) {
+
+}
+
+// ============MediumScreen========
+@media all and (max-width: 768px) {
+    .mobile-menu{
+        display: block;
+        color: #fff;
+    }
+    .navigation_main{
+        display: none;
+    }
+    header{
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+}
+
+// ============SmallScreen=========
+@media all and (max-width: 480px) {
+}
