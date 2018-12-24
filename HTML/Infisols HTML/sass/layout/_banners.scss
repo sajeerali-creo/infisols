@@ -10,7 +10,7 @@
 
 	h1{
 		font-family: Poppins;
-		font-weight: bold;
+		font-weight: 600;
 		font-size: 30px;
 		line-height: 50px;
 		text-align: left;
@@ -54,5 +54,53 @@
 			}
 		}
 	}
+
+	.banner-form{
+		max-width: 459px;
+		min-height: 500px;
+		border-radius: 3px;
+		background: $white;
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+		padding: 25px;
+		float: right;
+		.f-left{
+			float: left;
+			width: calc(100% - 44px);
+			h2{
+				font-weight: 600;
+				font-size: 16px;
+				text-align: left;
+				color: #465871;
+				margin: 0;
+			}
+			p{
+				font-weight: normal;
+				font-size: 12px;
+				text-align: left;
+				color: #6d819c;
+				line-height: 20px;
+				margin-top: 10px;
+			}
+		}
+		.f-icon{
+			width: 43.35px;
+			height: 54.22px;
+			background: transparent;
+			img{
+				height: 54px;
+			}
+
+		}
+		.f-row{
+			margin-top: 20px;
+			float: left;
+			width: 100%;
+		}
+		button{
+			margin-top: 10px;
+		}
+	}
 }
+
+
 

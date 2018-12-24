@@ -1,5 +1,8 @@
 @media #{$small-and-down} {
-// styles for small screens and down
+    #abt-home a{
+        width: 100%;
+        text-align: center;
+    }
 }
 @media #{$medium-and-up} {
 // styles for medium screens and larger
@@ -16,6 +19,19 @@
     header{
         margin-top: 0px;
         padding-top: 20px;
+        height: auto;
+        background: rgba(26, 60, 80, 0.57);
+    }
+    #banner{
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 80px;
+        .banner-form{
+            margin-top: 20px;
+        }
+    }
+    .padd-each{
+        padding: 20px 0px!important;
     }
 }
 @media #{$large-and-up} {

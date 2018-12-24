@@ -1,0 +1,58 @@
+.padd-each{
+    padding: 100px 0px;
+}
+
+#abt-home{
+    background: $white;
+    p{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: left;
+        color: #6d819c;
+
+    }
+    .bx-abt{
+        background-position: top left;
+        background-image: url(../img/home/logo-transp.svg);
+        background-repeat: no-repeat;
+        h2{
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 50px;
+            text-align: left;
+            color: #465871;
+            padding-left: 70px;
+        }
+        
+    }
+    a{
+        display: inline-block;
+        height: 45px;
+        width: auto;
+        padding: 0px 15px;
+        border-radius: 3px;
+		background: transparent;
+        border: 1px solid rgba(109, 129, 156, 0.19);
+        line-height: 45px;
+        margin-top: 20px;
+        color: #465871;
+        margin-right: 5px;
+        i{
+            display: inline-block;
+            padding-left: 10px;
+        }
+        &:hover{
+            i{
+                padding-left: 20px;
+            }
+        }
+    }
+    .red-outline{
+        border: 1px solid #F9634C!important;
+        color: #F9634C!important;
+        i{
+            color: #F9634C!important;
+        }
+    }
+}

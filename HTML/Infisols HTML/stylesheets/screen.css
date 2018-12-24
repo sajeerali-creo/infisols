@@ -68,8 +68,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/layout/_main.scss */
-div, i, a, button, span {
+div, i, a, button, span, li {
   transition: all 0.2s ease;
+}
+
+/* line 5, ../sass/layout/_main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+}
+
+/* line 8, ../sass/layout/_main.scss */
+.input-field {
+  margin-top: 5px !important;
+}
+
+/* line 13, ../sass/layout/_main.scss */
+.banner-form input:not([type]).validate + label, .banner-form input[type=text]:not(.browser-default).validate + label, .banner-form input[type=password]:not(.browser-default).validate + label, .banner-form input[type=email]:not(.browser-default).validate + label, .banner-form input[type=url]:not(.browser-default).validate + label, .banner-form input[type=time]:not(.browser-default).validate + label, .banner-form input[type=date]:not(.browser-default).validate + label, .banner-form input[type=datetime]:not(.browser-default).validate + label, .banner-form input[type=datetime-local]:not(.browser-default).validate + label, .banner-form input[type=tel]:not(.browser-default).validate + label, .banner-form input[type=number]:not(.browser-default).validate + label, .banner-form input[type=search]:not(.browser-default).validate + label, .banner-form textarea.materialize-textarea.validate + label {
+  font-size: 13px !important;
+}
+
+/* line 18, ../sass/layout/_main.scss */
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  border-bottom: 1px solid rgba(112, 112, 112, 0.2) !important;
+  margin: 0 0 10px 0 !important;
+}
+
+/* line 22, ../sass/layout/_main.scss */
+.padding15 {
+  padding: 15px;
 }
 
 /* line 1, ../sass/layout/_banners.scss */
@@ -86,7 +112,7 @@ div, i, a, button, span {
 /* line 11, ../sass/layout/_banners.scss */
 #banner h1 {
   font-family: Poppins;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 30px;
   line-height: 50px;
   text-align: left;
@@ -135,6 +161,58 @@ div, i, a, button, span {
 #banner .bt-transparat:hover i {
   padding-left: 20px;
 }
+/* line 58, ../sass/layout/_banners.scss */
+#banner .banner-form {
+  max-width: 459px;
+  min-height: 500px;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 25px;
+  float: right;
+}
+/* line 66, ../sass/layout/_banners.scss */
+#banner .banner-form .f-left {
+  float: left;
+  width: calc(100% - 44px);
+}
+/* line 69, ../sass/layout/_banners.scss */
+#banner .banner-form .f-left h2 {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  color: #465871;
+  margin: 0;
+}
+/* line 76, ../sass/layout/_banners.scss */
+#banner .banner-form .f-left p {
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  color: #6d819c;
+  line-height: 20px;
+  margin-top: 10px;
+}
+/* line 85, ../sass/layout/_banners.scss */
+#banner .banner-form .f-icon {
+  width: 43.35px;
+  height: 54.22px;
+  background: transparent;
+}
+/* line 89, ../sass/layout/_banners.scss */
+#banner .banner-form .f-icon img {
+  height: 54px;
+}
+/* line 94, ../sass/layout/_banners.scss */
+#banner .banner-form .f-row {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+/* line 99, ../sass/layout/_banners.scss */
+#banner .banner-form button {
+  margin-top: 10px;
+}
 
 /* line 2, ../sass/layout/_buttons.scss */
 .normal_bt {
@@ -143,15 +221,15 @@ div, i, a, button, span {
   border-radius: 3px;
   background: linear-gradient(#fa6849 0%, #f84656 100%);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   text-align: center;
   color: #fff;
   border: none;
+  line-height: 45px;
 }
-/* line 13, ../sass/layout/_buttons.scss */
+/* line 14, ../sass/layout/_buttons.scss */
 .normal_bt:hover {
-  background: #f84656;
   cursor: pointer;
 }
 
@@ -187,43 +265,141 @@ header .logo img {
   height: auto;
 }
 /* line 16, ../sass/layout/_header.scss */
-header .navigation_main {
+header .bt {
+  display: inline-block;
   float: right;
 }
-/* line 18, ../sass/layout/_header.scss */
+/* line 20, ../sass/layout/_header.scss */
+header .navigation_main {
+  float: left;
+  width: calc(100% - 128px);
+  text-align: right;
+}
+/* line 24, ../sass/layout/_header.scss */
 header .navigation_main li {
   display: inline-block;
+  padding-right: 15px;
 }
-/* line 20, ../sass/layout/_header.scss */
+/* line 27, ../sass/layout/_header.scss */
 header .navigation_main li a {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   opacity: 0.5;
   padding: 0px 8px;
+  line-height: 45px;
 }
-/* line 26, ../sass/layout/_header.scss */
+/* line 34, ../sass/layout/_header.scss */
 header .navigation_main li a:hover {
   color: #fff;
   opacity: 1;
 }
 
-/* Respopnsive breakpoint */
-@media all and (max-width: 768px) {
-  /* line 9, ../sass/layout/_responsive.scss */
+/* line 1, ../sass/layout/_blocks.scss */
+.padd-each {
+  padding: 100px 0px;
+}
+
+/* line 5, ../sass/layout/_blocks.scss */
+#abt-home {
+  background: #fff;
+}
+/* line 7, ../sass/layout/_blocks.scss */
+#abt-home p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+  color: #6d819c;
+}
+/* line 15, ../sass/layout/_blocks.scss */
+#abt-home .bx-abt {
+  background-position: top left;
+  background-image: url(../img/home/logo-transp.svg);
+  background-repeat: no-repeat;
+}
+/* line 19, ../sass/layout/_blocks.scss */
+#abt-home .bx-abt h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #465871;
+  padding-left: 70px;
+}
+/* line 29, ../sass/layout/_blocks.scss */
+#abt-home a {
+  display: inline-block;
+  height: 45px;
+  width: auto;
+  padding: 0px 15px;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid rgba(109, 129, 156, 0.19);
+  line-height: 45px;
+  margin-top: 20px;
+  color: #465871;
+  margin-right: 5px;
+}
+/* line 41, ../sass/layout/_blocks.scss */
+#abt-home a i {
+  display: inline-block;
+  padding-left: 10px;
+}
+/* line 46, ../sass/layout/_blocks.scss */
+#abt-home a:hover i {
+  padding-left: 20px;
+}
+/* line 51, ../sass/layout/_blocks.scss */
+#abt-home .red-outline {
+  border: 1px solid #F9634C !important;
+  color: #F9634C !important;
+}
+/* line 54, ../sass/layout/_blocks.scss */
+#abt-home .red-outline i {
+  color: #F9634C !important;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 2, ../sass/layout/_responsive.scss */
+  #abt-home a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 12, ../sass/layout/_responsive.scss */
   .mobile-menu {
     display: block;
     color: #fff;
   }
 
-  /* line 13, ../sass/layout/_responsive.scss */
+  /* line 16, ../sass/layout/_responsive.scss */
   .navigation_main {
     display: none;
   }
 
-  /* line 16, ../sass/layout/_responsive.scss */
+  /* line 19, ../sass/layout/_responsive.scss */
   header {
     margin-top: 0px;
     padding-top: 20px;
+    height: auto;
+    background: rgba(26, 60, 80, 0.57);
+  }
+
+  /* line 25, ../sass/layout/_responsive.scss */
+  #banner {
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 80px;
+  }
+  /* line 29, ../sass/layout/_responsive.scss */
+  #banner .banner-form {
+    margin-top: 20px;
+  }
+
+  /* line 33, ../sass/layout/_responsive.scss */
+  .padd-each {
+    padding: 20px 0px !important;
   }
 }

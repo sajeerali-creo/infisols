@@ -13,16 +13,24 @@ header{
 			height: auto;
 		}
 	}
-	.navigation_main{
+	.bt{
+		display: inline-block;
 		float: right;
+	}
+	.navigation_main{
+		float: left;
+		width: calc(100% - 128px);
+		text-align: right;
 		li{
 			display: inline-block;
+			padding-right: 15px;
 			a{
 				font-family: Poppins;
-				font-size: 16px;
+				font-size: 14px;
 				color: #fff;
 				opacity: 0.5;
 				padding:0px 8px;
+				line-height: 45px;
 				&:hover{
 					color: #fff;
 					opacity: 1;
