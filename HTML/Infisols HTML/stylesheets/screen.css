@@ -101,7 +101,8 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 /* line 1, ../sass/layout/_banners.scss */
 #banner {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 40px;
   background: #e1e1e1;
   background-image: url(../img/home/banner.jpg);
   background-attachment: fixed;
@@ -109,7 +110,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   padding-top: 150px;
   background-size: cover;
 }
-/* line 11, ../sass/layout/_banners.scss */
+/* line 12, ../sass/layout/_banners.scss */
 #banner h1 {
   font-family: Poppins;
   font-weight: 600;
@@ -118,7 +119,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   text-align: left;
   color: #fff;
 }
-/* line 19, ../sass/layout/_banners.scss */
+/* line 20, ../sass/layout/_banners.scss */
 #banner span {
   width: 50px;
   height: 5px;
@@ -127,7 +128,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   display: block;
   margin-top: 40px;
 }
-/* line 27, ../sass/layout/_banners.scss */
+/* line 28, ../sass/layout/_banners.scss */
 #banner p {
   font-family: Poppins;
   font-weight: normal;
@@ -137,7 +138,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   color: #fff;
   margin-top: 20px;
 }
-/* line 37, ../sass/layout/_banners.scss */
+/* line 38, ../sass/layout/_banners.scss */
 #banner .bt-transparat {
   width: 160px;
   height: 45px;
@@ -147,21 +148,22 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   color: #fff;
   margin-top: 60px;
 }
-/* line 45, ../sass/layout/_banners.scss */
+/* line 46, ../sass/layout/_banners.scss */
 #banner .bt-transparat i {
   color: #fff;
   display: inline-block;
   padding-left: 10px;
 }
-/* line 50, ../sass/layout/_banners.scss */
+/* line 51, ../sass/layout/_banners.scss */
 #banner .bt-transparat:hover {
   cursor: pointer;
 }
-/* line 52, ../sass/layout/_banners.scss */
+/* line 53, ../sass/layout/_banners.scss */
 #banner .bt-transparat:hover i {
   padding-left: 20px;
+  color: #BFE2FF;
 }
-/* line 58, ../sass/layout/_banners.scss */
+/* line 60, ../sass/layout/_banners.scss */
 #banner .banner-form {
   max-width: 459px;
   min-height: 500px;
@@ -171,12 +173,12 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   padding: 25px;
   float: right;
 }
-/* line 66, ../sass/layout/_banners.scss */
+/* line 68, ../sass/layout/_banners.scss */
 #banner .banner-form .f-left {
   float: left;
   width: calc(100% - 44px);
 }
-/* line 69, ../sass/layout/_banners.scss */
+/* line 71, ../sass/layout/_banners.scss */
 #banner .banner-form .f-left h2 {
   font-weight: 600;
   font-size: 16px;
@@ -184,7 +186,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   color: #465871;
   margin: 0;
 }
-/* line 76, ../sass/layout/_banners.scss */
+/* line 78, ../sass/layout/_banners.scss */
 #banner .banner-form .f-left p {
   font-weight: normal;
   font-size: 12px;
@@ -193,23 +195,23 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   line-height: 20px;
   margin-top: 10px;
 }
-/* line 85, ../sass/layout/_banners.scss */
+/* line 87, ../sass/layout/_banners.scss */
 #banner .banner-form .f-icon {
   width: 43.35px;
   height: 54.22px;
   background: transparent;
 }
-/* line 89, ../sass/layout/_banners.scss */
+/* line 91, ../sass/layout/_banners.scss */
 #banner .banner-form .f-icon img {
   height: 54px;
 }
-/* line 94, ../sass/layout/_banners.scss */
+/* line 96, ../sass/layout/_banners.scss */
 #banner .banner-form .f-row {
   margin-top: 20px;
   float: left;
   width: 100%;
 }
-/* line 99, ../sass/layout/_banners.scss */
+/* line 101, ../sass/layout/_banners.scss */
 #banner .banner-form button {
   margin-top: 10px;
 }
@@ -349,15 +351,130 @@ header .navigation_main li a:hover {
 /* line 46, ../sass/layout/_blocks.scss */
 #abt-home a:hover i {
   padding-left: 20px;
+  color: #F9634C;
 }
-/* line 51, ../sass/layout/_blocks.scss */
+/* line 52, ../sass/layout/_blocks.scss */
 #abt-home .red-outline {
   border: 1px solid #F9634C !important;
   color: #F9634C !important;
 }
-/* line 54, ../sass/layout/_blocks.scss */
+/* line 55, ../sass/layout/_blocks.scss */
 #abt-home .red-outline i {
   color: #F9634C !important;
+}
+
+/* line 62, ../sass/layout/_blocks.scss */
+#serv-home {
+  background: #ECF0F9;
+}
+/* line 64, ../sass/layout/_blocks.scss */
+#serv-home h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #6d819c;
+}
+/* line 71, ../sass/layout/_blocks.scss */
+#serv-home p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+  color: #6d819c;
+}
+/* line 78, ../sass/layout/_blocks.scss */
+#serv-home a {
+  display: inline-block;
+  height: 45px;
+  width: auto;
+  padding: 0px 25px;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid rgba(109, 129, 156, 0.19);
+  line-height: 45px;
+  margin-top: 20px;
+  color: #465871;
+  margin-right: 5px;
+}
+/* line 90, ../sass/layout/_blocks.scss */
+#serv-home a i {
+  display: inline-block;
+  padding-left: 10px;
+}
+/* line 95, ../sass/layout/_blocks.scss */
+#serv-home a:hover i {
+  padding-left: 20px;
+  color: #F9634C;
+}
+/* line 101, ../sass/layout/_blocks.scss */
+#serv-home .s-box {
+  width: 90%;
+  height: 150px;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.04);
+  margin-bottom: 10px;
+  float: right;
+  padding: 15px;
+}
+/* line 110, ../sass/layout/_blocks.scss */
+#serv-home .s-box a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  height: auto !important;
+  margin: 0px !important;
+  color: #465871;
+  border: none !important;
+  padding: 0px !important;
+}
+/* line 120, ../sass/layout/_blocks.scss */
+#serv-home .s-box a i {
+  display: inline-block;
+  padding-left: 20px;
+}
+/* line 125, ../sass/layout/_blocks.scss */
+#serv-home .s-box a:hover i {
+  padding-left: 25px;
+}
+/* line 130, ../sass/layout/_blocks.scss */
+#serv-home .s-box h2 {
+  font-weight: 600;
+  font-size: 16px !important;
+  text-align: left;
+  color: #465871;
+  margin: 0px;
+  margin-top: 20px;
+}
+/* line 138, ../sass/layout/_blocks.scss */
+#serv-home .s-box .img-s-box {
+  width: 140px;
+  float: left;
+  height: 140px;
+  margin-right: 15px;
+}
+/* line 144, ../sass/layout/_blocks.scss */
+#serv-home .s-box .imh-c-box {
+  width: calc(100% - 155px);
+  float: left;
+}
+/* line 148, ../sass/layout/_blocks.scss */
+#serv-home .s-box .imh-c-box h2 {
+  font-weight: 600;
+  font-size: 20px !important;
+  text-align: left;
+  color: #465871;
+}
+/* line 154, ../sass/layout/_blocks.scss */
+#serv-home .s-box .imh-c-box p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #465871;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -366,20 +483,41 @@ header .navigation_main li a:hover {
     width: 100%;
     text-align: center;
   }
+
+  /* line 7, ../sass/layout/_responsive.scss */
+  #serv-home .s-box {
+    height: auto;
+  }
+  /* line 9, ../sass/layout/_responsive.scss */
+  #serv-home .s-box .img-s-box {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  /* line 14, ../sass/layout/_responsive.scss */
+  #serv-home .s-box .img-s-box img {
+    margin: 0px auto;
+  }
+  /* line 18, ../sass/layout/_responsive.scss */
+  #serv-home .s-box .imh-c-box {
+    width: 100%;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 992px) {
-  /* line 12, ../sass/layout/_responsive.scss */
+  /* line 30, ../sass/layout/_responsive.scss */
   .mobile-menu {
     display: block;
     color: #fff;
   }
 
-  /* line 16, ../sass/layout/_responsive.scss */
+  /* line 34, ../sass/layout/_responsive.scss */
   .navigation_main {
     display: none;
   }
 
-  /* line 19, ../sass/layout/_responsive.scss */
+  /* line 37, ../sass/layout/_responsive.scss */
   header {
     margin-top: 0px;
     padding-top: 20px;
@@ -387,19 +525,26 @@ header .navigation_main li a:hover {
     background: rgba(26, 60, 80, 0.57);
   }
 
-  /* line 25, ../sass/layout/_responsive.scss */
+  /* line 43, ../sass/layout/_responsive.scss */
   #banner {
     height: auto;
     padding-bottom: 30px;
     padding-top: 80px;
   }
-  /* line 29, ../sass/layout/_responsive.scss */
+  /* line 47, ../sass/layout/_responsive.scss */
   #banner .banner-form {
     margin-top: 20px;
   }
 
-  /* line 33, ../sass/layout/_responsive.scss */
+  /* line 51, ../sass/layout/_responsive.scss */
   .padd-each {
     padding: 20px 0px !important;
+  }
+
+  /* line 55, ../sass/layout/_responsive.scss */
+  #serv-home .s-box {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 10px;
   }
 }

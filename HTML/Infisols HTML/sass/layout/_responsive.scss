@@ -3,6 +3,24 @@
         width: 100%;
         text-align: center;
     }
+    #serv-home{
+        .s-box{
+            height: auto;
+            .img-s-box{
+                width: 100%;
+                text-align: center;
+                overflow: hidden;
+                margin-bottom: 10px;
+                img{
+                    margin:0px auto;
+                }
+            }
+            .imh-c-box{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
 }
 @media #{$medium-and-up} {
 // styles for medium screens and larger
@@ -32,6 +50,13 @@
     }
     .padd-each{
         padding: 20px 0px!important;
+    }
+    #serv-home{
+        .s-box{
+            width: 100%;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
     }
 }
 @media #{$large-and-up} {
