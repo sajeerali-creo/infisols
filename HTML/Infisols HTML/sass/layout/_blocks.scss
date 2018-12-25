@@ -168,15 +168,20 @@
 // pro-home
 #pro-home{
     height: auto;
+    .l6{
+        height: 440px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
     .red-bx{
         background: #F95251;
-        height: 440px;
         .content-bx{
             padding: 30px;
             h2{
                 font-family: Poppins;
                 font-weight: 600;
-                font-size: 25px;
+                font-size: 35px;
                 line-height: 50px;
                 text-align: left;
                 color: #fff;
@@ -213,7 +218,31 @@
                 }
             }
         }
-        
+    }
 
+    .work-box{
+        width: 100%;
+        height: auto;
+        position: relative;
+        img{
+            width: 100%;
+            height: 440px;
+            object-fit: cover;
+        }
+        .title-work{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            h3{
+                color: $white;
+                background: #465871;
+                padding: 5px 15px;
+                font-size: 20px;
+                font-weight: 600;
+                width: auto;
+                float: left;
+            }
+        }
     }
 }
