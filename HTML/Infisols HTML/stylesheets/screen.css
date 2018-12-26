@@ -846,6 +846,32 @@ footer .footer-sec {
   background: #465871;
   padding-top: 40px;
 }
+/* line 502, ../sass/layout/_blocks.scss */
+footer .footer-sec h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+/* line 512, ../sass/layout/_blocks.scss */
+footer .footer-sec ul li a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #b0c1d8;
+}
+/* line 523, ../sass/layout/_blocks.scss */
+footer .copy {
+  border-top: 1px solid 1px solid rgba(241, 241, 241, 0.13);
+  margin-top: 20px;
+}
+/* line 526, ../sass/layout/_blocks.scss */
+footer .copy span {
+  display: block;
+}
 
 @media only screen and (max-width: 600px) {
   /* line 2, ../sass/layout/_responsive.scss */
