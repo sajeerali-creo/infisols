@@ -21,6 +21,12 @@
             }
         }
     }
+    #home-blog .blog-box .b-title h3{
+        margin-top: 120%!important;
+    }
+    #home-blog .blue-box{
+        height: auto;
+    }
 }
 @media #{$medium-and-up} {
 // styles for medium screens and larger
@@ -57,6 +63,12 @@
             margin-bottom: 0px;
             margin-top: 10px;
         }
+    }
+    #home-blog .blog-box .b-title h3{
+        margin-top: 60%;
+    }
+    footer .first-sec .right-align-tx h2, footer .first-sec .right-align-tx p{
+        text-align: left;
     }
 }
 @media #{$large-and-up} {
