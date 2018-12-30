@@ -10,7 +10,6 @@
         line-height: 30px;
         text-align: left;
         color: #6d819c;
-
     }
     .bx-abt{
         background-position: top left;
@@ -485,6 +484,11 @@ footer{
             line-height: 30px;
             text-align: left;
             color: #6d819c;
+            strong{
+                font-weight:600;
+                font-size:16px;
+                margin-top:20px;
+            }
         }
         button{
             margin-top: 30px;
@@ -511,7 +515,7 @@ footer{
             li{
                 a{
                     font-weight: normal;
-                    font-size: 16px;
+                    font-size: 14px;
                     line-height: 30px;
                     text-align: left;
                     color: #b0c1d8;
@@ -521,10 +525,35 @@ footer{
         }
     }
     .copy{
-        border-top: 1px solid 1px solid rgba(241, 241, 241, 0.13);
+        border-top: 1px solid rgba(241, 241, 241, 0.13);
         margin-top: 20px;
+        padding:10px 0px;
+        float:left;
+        width:100%;
         span{
             display: block;
+            color: #fff;
+            font-size: 14px;
+            float: left;
+        }
+        ul{
+            float:right;
+            li{
+                display:inline-block;
+                a{
+                    display:block;
+                    width:30px;
+                    height:30px;
+                    border-radius:160px;
+                    line-height:30px;
+                    text-align:center;
+                    color:$white;
+                    background-color:#2f3d50;
+                    i{
+                        color:$white;
+                    }
+                }
+            }
         }
     }
    

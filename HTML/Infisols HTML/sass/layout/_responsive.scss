@@ -27,6 +27,20 @@
     #home-blog .blue-box{
         height: auto;
     }
+    .copy{
+        span{
+            width:100%;
+            text-align:center;
+        }
+        ul{
+            float:none!important;
+            text-align:center;
+            margin:0px auto;
+            width:200px;
+            margin-top:20px!important;
+           
+        }
+    }
 }
 @media #{$medium-and-up} {
 // styles for medium screens and larger
