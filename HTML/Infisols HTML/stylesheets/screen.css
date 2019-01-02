@@ -1208,3 +1208,69 @@ footer .copy ul li a i {
     padding-top: 60px;
   }
 }
+/* line 2, ../sass/layout/_projects.scss */
+#pro-banner {
+  height: auto;
+  background: #465871;
+  padding: 50px 0px;
+}
+/* line 6, ../sass/layout/_projects.scss */
+#pro-banner h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+/* line 14, ../sass/layout/_projects.scss */
+#pro-banner p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+  opacity: 0.76;
+}
+/* line 22, ../sass/layout/_projects.scss */
+#pro-banner ul {
+  margin-top: 50px;
+}
+/* line 24, ../sass/layout/_projects.scss */
+#pro-banner ul li {
+  display: inline-block;
+  width: 23%;
+  margin: 0px 5px;
+}
+/* line 28, ../sass/layout/_projects.scss */
+#pro-banner ul li a {
+  height: 45px;
+  border-radius: 3px;
+  font-weight: normal;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.42);
+  display: block;
+  text-align: center;
+}
+/* line 38, ../sass/layout/_projects.scss */
+#pro-banner ul li a:hover {
+  background: #2D3B4E;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 50, ../sass/layout/_projects.scss */
+  #pro-banner ul li {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 57, ../sass/layout/_projects.scss */
+  #pro-banner ul li {
+    width: 47%;
+    margin-top: 10px;
+  }
+}
