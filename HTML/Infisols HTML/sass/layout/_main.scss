@@ -38,3 +38,19 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 .mg-top-50{
     margin-top: 50px;
 }
+
+.inner-head{
+    position: static!important;
+    background-color: $white;
+    padding-top: 30px!important;
+    .navigation_main{
+        li{
+            a{
+                color: #091c35;
+                &:hover{
+                    color: rgba(109, 129, 156, 0.19);
+                }
+            }
+        }
+    }
+}

@@ -10,7 +10,9 @@
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="stylesheets/screen.css">
-	<link rel="stylesheet" href="stylesheets/materialize.min.css">
+    <link rel="stylesheet" href="stylesheets/materialize.min.css">
+    
+    <link rel="stylesheet" href="stylesheets/aos.css" />
 
 </head>
 <body>
@@ -108,11 +110,13 @@
 <!-- main scripts -->
 <script type="text/javascript">
   $(".button-collapse").sideNav();
+</script>
 
-  $(document).ready(function() {
-    $('select').material_select();
+<script src="js/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
   });
-
 </script>
 
 </body>

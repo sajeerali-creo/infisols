@@ -119,6 +119,21 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   margin-top: 50px;
 }
 
+/* line 42, ../sass/layout/_main.scss */
+.inner-head {
+  position: static !important;
+  background-color: #fff;
+  padding-top: 30px !important;
+}
+/* line 48, ../sass/layout/_main.scss */
+.inner-head .navigation_main li a {
+  color: #091c35;
+}
+/* line 50, ../sass/layout/_main.scss */
+.inner-head .navigation_main li a:hover {
+  color: rgba(109, 129, 156, 0.19);
+}
+
 /* line 1, ../sass/layout/_banners.scss */
 #banner {
   width: 100%;
