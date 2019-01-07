@@ -283,6 +283,12 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   float: right;
 }
 
+@media only screen and (max-width: 600px) {
+  /* line 6, ../sass/layout/_footer.scss */
+  footer .copy span {
+    padding-bottom: 10px;
+  }
+}
 /* line 1, ../sass/layout/_header.scss */
 header {
   position: absolute;
@@ -333,6 +339,28 @@ header .navigation_main li a:hover {
   opacity: 1;
 }
 
+@media only screen and (max-width: 600px) {
+  /* line 46, ../sass/layout/_header.scss */
+  .inner-head {
+    padding-top: 20px !important;
+    padding-bottom: 20px;
+  }
+  /* line 49, ../sass/layout/_header.scss */
+  .inner-head .mobile-menu {
+    color: #455872;
+  }
+}
+@media only screen and (min-width: 601px) {
+  /* line 56, ../sass/layout/_header.scss */
+  .inner-head {
+    padding-top: 20px !important;
+    padding-bottom: 20px;
+  }
+  /* line 59, ../sass/layout/_header.scss */
+  .inner-head .mobile-menu {
+    color: #455872;
+  }
+}
 /* line 1, ../sass/layout/_blocks.scss */
 .padd-each {
   padding: 100px 0px;
@@ -939,6 +967,85 @@ footer .copy ul li a i {
   color: #fff;
 }
 
+/* line 2, ../sass/layout/_blog.scss */
+.white-box {
+  width: 100%;
+  height: 504px;
+  border-radius: 3px;
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+/* line 9, ../sass/layout/_blog.scss */
+.white-box h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #465871;
+  border-bottom: 5px solid #465871;
+  width: 150px;
+}
+/* line 19, ../sass/layout/_blog.scss */
+.white-box ul li {
+  width: auto;
+  height: 45px;
+  border-radius: 22.5px;
+  background: #fff;
+  border: 1px solid #f1f1f1;
+  line-height: 45px;
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 5px;
+  font-size: 16px;
+  color: #465871;
+}
+
+/* line 38, ../sass/layout/_blog.scss */
+#blog-detail {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 50px 0px;
+}
+/* line 42, ../sass/layout/_blog.scss */
+#blog-detail h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #465871;
+}
+/* line 50, ../sass/layout/_blog.scss */
+#blog-detail span {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #465871;
+  opacity: 0.5;
+}
+/* line 58, ../sass/layout/_blog.scss */
+#blog-detail .img-blog-box {
+  width: 100%;
+  height: 650px;
+  margin-top: 30px;
+}
+/* line 62, ../sass/layout/_blog.scss */
+#blog-detail .img-blog-box img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+/* line 68, ../sass/layout/_blog.scss */
+#blog-detail p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #465871;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 600px) {
   /* line 2, ../sass/layout/_responsive.scss */
   #abt-home a {
@@ -1260,17 +1367,67 @@ footer .copy ul li a i {
   color: #fff;
 }
 
+/* line 50, ../sass/layout/_projects.scss */
+#pro-detail {
+  background-color: #465871;
+  padding: 50px 0px;
+}
+/* line 53, ../sass/layout/_projects.scss */
+#pro-detail h2 {
+  display: block;
+  width: 50%;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+}
+/* line 62, ../sass/layout/_projects.scss */
+#pro-detail ul {
+  margin-bottom: 20px;
+}
+/* line 64, ../sass/layout/_projects.scss */
+#pro-detail ul li {
+  display: inline-block;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+/* line 72, ../sass/layout/_projects.scss */
+#pro-detail ul li span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+  opacity: 0.5;
+  padding-left: 30px;
+}
+
 @media only screen and (max-width: 600px) {
-  /* line 50, ../sass/layout/_projects.scss */
+  /* line 88, ../sass/layout/_projects.scss */
   #pro-banner ul li {
     width: 100% !important;
     margin-top: 10px;
   }
+
+  /* line 92, ../sass/layout/_projects.scss */
+  #pro-detail h2 {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 992px) {
-  /* line 57, ../sass/layout/_projects.scss */
+  /* line 98, ../sass/layout/_projects.scss */
   #pro-banner ul li {
     width: 47%;
     margin-top: 10px;
+  }
+
+  /* line 102, ../sass/layout/_projects.scss */
+  #pro-detail h2 {
+    width: 100%;
   }
 }

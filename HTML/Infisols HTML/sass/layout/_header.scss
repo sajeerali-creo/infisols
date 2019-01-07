@@ -39,3 +39,32 @@ header{
 		}
 	}
 }
+
+
+// Responsive
+@media #{$small-and-down} {
+	.inner-head{
+		padding-top:20px!important;
+		padding-bottom:20px; 
+		.mobile-menu{
+			color: #455872;
+		}
+	}
+}
+@media #{$medium-and-up} {
+// styles for medium screens and larger
+	.inner-head{
+		padding-top:20px!important;
+		padding-bottom:20px; 
+		.mobile-menu{
+			color: #455872;
+		}
+	}
+}
+@media #{$medium-and-down} {
+// styles for medium screens and down
+   
+}
+
+
+

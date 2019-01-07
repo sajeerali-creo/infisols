@@ -45,11 +45,52 @@
 }
 
 
+// pro-detail
+// =====================
+#pro-detail{
+    background-color: #465871;
+    padding: 50px 0px;
+    h2{
+        display: block;
+        width: 50%;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        color: #fff;
+    }
+    ul{
+        margin-bottom: 20px;
+        li{
+            display: inline-block;
+            padding-right:30px; 
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: left;
+            color: #fff;
+            span{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: left;
+                color: #fff;
+                opacity: 0.5;
+                padding-left: 30px;
+            }
+        }
+    }
+}
 
+
+// Responsive
 @media #{$small-and-down} {
     #pro-banner ul li{
         width: 100%!important;
         margin-top: 10px;
+    }
+    #pro-detail h2{
+        width:100%;
     }
 }
 
@@ -57,5 +98,8 @@
     #pro-banner ul li{
         width: 47%;
         margin-top: 10px;
+    }
+    #pro-detail h2{
+        width:100%;
     }
 }

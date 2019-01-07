@@ -1,0 +1,18 @@
+
+
+
+// Responsive
+@media #{$small-and-down} {
+	footer .copy span{
+        padding-bottom: 10px;
+    }
+}
+@media #{$medium-and-up} {
+// styles for medium screens and larger
+}
+@media #{$medium-and-down} {
+// styles for medium screens and down
+   
+}
+
+
