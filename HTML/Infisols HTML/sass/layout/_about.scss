@@ -1,0 +1,139 @@
+#about{
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 50px 0px;
+    .download-pr{
+        width: 100%;
+        height: 490px;
+        border-radius: 6px;
+        background: linear-gradient(#fa6849 0%, #f84656 100%);
+        padding: 70px;
+        i{
+            display: block;
+            text-align: center;
+        }
+        a{
+            text-align: center;
+            color: #fff;
+            display: block;
+            span{
+                font-size: 100px;
+                color: #fff;
+                text-align: center;
+                display: block;
+                margin-top: 90px;
+            }
+        }
+    }
+    h2{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        color: #465871;
+    }
+    h3{
+        font-weight: 500;
+        font-size: 18px;
+        text-align: left;
+        color: #465871;
+        line-height: 30px;
+        opacity: 0.5;
+        display: block;
+        padding: 40px 0px;
+    }
+    p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: left;
+        color: #6d819c;
+
+    }
+    .top-sec-abt{
+        margin-bottom: 50px;
+    }
+    .img-abt-box{
+        width: 100%;
+        height: 480px;
+        background: #f1f1f1;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+        }
+    }
+    .sp-left-text{
+        h2, h3, p{
+            display: block;
+            padding-left: 30px;
+        }
+    }
+    .team-box{
+        width: 100%;
+        height: 550px;
+        background: #f1f1f1;
+        position: relative;
+        img{
+            width: 100%;
+            height: 550px;
+            object-fit: cover;
+        }
+        .title-desi{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 30px;
+            h6{
+                font-weight: 600;
+                font-size: 20px;
+                text-align: left;
+                color: #fff;
+            }
+            span{
+                font-weight: normal;
+                font-size: 20px;
+                text-align: left;
+                color: #fff;
+                opacity: 0.5;
+            }
+        }
+    }
+
+}
+
+// Responsive
+@media #{$small-and-down} {
+    #about .download-pr{
+        margin-top: 50px;
+    }
+    .sp-left-text{
+        h2, h3, p{
+            padding-left: 0px!important;
+        }
+    }
+    #about .img-abt-box{
+        margin-top: 20px;
+    }
+    #about .team-box{
+        margin-bottom: 20px;
+    }
+}
+
+@media #{$medium-and-down} {
+    #about .download-pr{
+        margin-top: 50px;
+    }
+    .sp-left-text{
+        h2, h3, p{
+            padding-left: 0px !important;
+        }
+    }
+    #about .img-abt-box{
+        margin-top: 20px;
+    }
+    #about .team-box{
+        margin-bottom: 20px;
+    }
+}

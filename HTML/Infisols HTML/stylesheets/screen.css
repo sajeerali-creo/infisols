@@ -1431,3 +1431,163 @@ footer .copy ul li a i {
     width: 100%;
   }
 }
+/* line 1, ../sass/layout/_about.scss */
+#about {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 50px 0px;
+}
+/* line 5, ../sass/layout/_about.scss */
+#about .download-pr {
+  width: 100%;
+  height: 490px;
+  border-radius: 6px;
+  background: linear-gradient(#fa6849 0%, #f84656 100%);
+  padding: 70px;
+}
+/* line 11, ../sass/layout/_about.scss */
+#about .download-pr i {
+  display: block;
+  text-align: center;
+}
+/* line 15, ../sass/layout/_about.scss */
+#about .download-pr a {
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+/* line 19, ../sass/layout/_about.scss */
+#about .download-pr a span {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 90px;
+}
+/* line 28, ../sass/layout/_about.scss */
+#about h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #465871;
+}
+/* line 35, ../sass/layout/_about.scss */
+#about h3 {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  color: #465871;
+  line-height: 30px;
+  opacity: 0.5;
+  display: block;
+  padding: 40px 0px;
+}
+/* line 45, ../sass/layout/_about.scss */
+#about p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #6d819c;
+}
+/* line 53, ../sass/layout/_about.scss */
+#about .top-sec-abt {
+  margin-bottom: 50px;
+}
+/* line 56, ../sass/layout/_about.scss */
+#about .img-abt-box {
+  width: 100%;
+  height: 480px;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+/* line 61, ../sass/layout/_about.scss */
+#about .img-abt-box img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+/* line 68, ../sass/layout/_about.scss */
+#about .sp-left-text h2, #about .sp-left-text h3, #about .sp-left-text p {
+  display: block;
+  padding-left: 30px;
+}
+/* line 73, ../sass/layout/_about.scss */
+#about .team-box {
+  width: 100%;
+  height: 550px;
+  background: #f1f1f1;
+  position: relative;
+}
+/* line 78, ../sass/layout/_about.scss */
+#about .team-box img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+/* line 83, ../sass/layout/_about.scss */
+#about .team-box .title-desi {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+}
+/* line 88, ../sass/layout/_about.scss */
+#about .team-box .title-desi h6 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+}
+/* line 94, ../sass/layout/_about.scss */
+#about .team-box .title-desi span {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 108, ../sass/layout/_about.scss */
+  #about .download-pr {
+    margin-top: 50px;
+  }
+
+  /* line 112, ../sass/layout/_about.scss */
+  .sp-left-text h2, .sp-left-text h3, .sp-left-text p {
+    padding-left: 0px !important;
+  }
+
+  /* line 116, ../sass/layout/_about.scss */
+  #about .img-abt-box {
+    margin-top: 20px;
+  }
+
+  /* line 119, ../sass/layout/_about.scss */
+  #about .team-box {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 125, ../sass/layout/_about.scss */
+  #about .download-pr {
+    margin-top: 50px;
+  }
+
+  /* line 129, ../sass/layout/_about.scss */
+  .sp-left-text h2, .sp-left-text h3, .sp-left-text p {
+    padding-left: 0px !important;
+  }
+
+  /* line 133, ../sass/layout/_about.scss */
+  #about .img-abt-box {
+    margin-top: 20px;
+  }
+
+  /* line 136, ../sass/layout/_about.scss */
+  #about .team-box {
+    margin-bottom: 20px;
+  }
+}
