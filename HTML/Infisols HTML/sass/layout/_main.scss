@@ -52,3 +52,20 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
         }
     }
 }
+
+
+.border-both{
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #f1f1f1;
+}
+.border-top{
+    border-top: 1px solid #f1f1f1;
+}
+
+
+
+

@@ -129,6 +129,22 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   color: rgba(109, 129, 156, 0.19);
 }
 
+/* line 57, ../sass/layout/_main.scss */
+.border-both {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* line 62, ../sass/layout/_main.scss */
+.border-bottom {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* line 65, ../sass/layout/_main.scss */
+.border-top {
+  border-top: 1px solid #f1f1f1;
+}
+
 /* line 1, ../sass/layout/_banners.scss */
 #banner {
   width: 100%;
@@ -180,21 +196,25 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   margin-top: 60px;
 }
 /* line 46, ../sass/layout/_banners.scss */
+#banner .bt-transparat a {
+  color: #fff;
+}
+/* line 49, ../sass/layout/_banners.scss */
 #banner .bt-transparat i {
   color: #fff;
   display: inline-block;
   padding-left: 10px;
 }
-/* line 51, ../sass/layout/_banners.scss */
+/* line 54, ../sass/layout/_banners.scss */
 #banner .bt-transparat:hover {
   cursor: pointer;
 }
-/* line 53, ../sass/layout/_banners.scss */
+/* line 56, ../sass/layout/_banners.scss */
 #banner .bt-transparat:hover i {
   padding-left: 20px;
   color: #BFE2FF;
 }
-/* line 59, ../sass/layout/_banners.scss */
+/* line 62, ../sass/layout/_banners.scss */
 #banner .banner-form {
   max-width: 459px;
   min-height: 500px;
@@ -204,12 +224,12 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   padding: 25px;
   float: right;
 }
-/* line 67, ../sass/layout/_banners.scss */
+/* line 70, ../sass/layout/_banners.scss */
 #banner .banner-form .f-left {
   float: left;
   width: calc(100% - 44px);
 }
-/* line 70, ../sass/layout/_banners.scss */
+/* line 73, ../sass/layout/_banners.scss */
 #banner .banner-form .f-left h2 {
   font-weight: 600;
   font-size: 16px;
@@ -217,7 +237,7 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   color: #465871;
   margin: 0;
 }
-/* line 77, ../sass/layout/_banners.scss */
+/* line 80, ../sass/layout/_banners.scss */
 #banner .banner-form .f-left p {
   font-weight: normal;
   font-size: 12px;
@@ -226,23 +246,23 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   line-height: 20px;
   margin-top: 10px;
 }
-/* line 86, ../sass/layout/_banners.scss */
+/* line 89, ../sass/layout/_banners.scss */
 #banner .banner-form .f-icon {
   width: 43.35px;
   height: 54.22px;
   background: transparent;
 }
-/* line 90, ../sass/layout/_banners.scss */
+/* line 93, ../sass/layout/_banners.scss */
 #banner .banner-form .f-icon img {
   height: 54px;
 }
-/* line 95, ../sass/layout/_banners.scss */
+/* line 98, ../sass/layout/_banners.scss */
 #banner .banner-form .f-row {
   margin-top: 20px;
   float: left;
   width: 100%;
 }
-/* line 100, ../sass/layout/_banners.scss */
+/* line 103, ../sass/layout/_banners.scss */
 #banner .banner-form button {
   margin-top: 10px;
 }
@@ -262,23 +282,30 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
   line-height: 45px;
 }
 /* line 14, ../sass/layout/_buttons.scss */
+.normal_bt a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 45px;
+}
+/* line 20, ../sass/layout/_buttons.scss */
 .normal_bt i {
   display: inline-block;
   padding-left: 5px;
 }
-/* line 19, ../sass/layout/_buttons.scss */
+/* line 25, ../sass/layout/_buttons.scss */
 .normal_bt:hover i {
   padding-left: 15px;
 }
 
-/* line 26, ../sass/layout/_buttons.scss */
+/* line 32, ../sass/layout/_buttons.scss */
 .mobile-menu {
   display: none;
   color: #fff;
   font-size: 30px;
   float: right;
 }
-/* line 31, ../sass/layout/_buttons.scss */
+/* line 37, ../sass/layout/_buttons.scss */
 .mobile-menu i {
   float: right;
 }
@@ -1753,8 +1780,9 @@ footer .copy ul li a i {
   height: 581px;
   background: #f1f1f1;
   position: relative;
+  overflow: hidden;
 }
-/* line 58, ../sass/layout/_service.scss */
+/* line 59, ../sass/layout/_service.scss */
 #sub-serv-det .img-abt-box-s i {
   display: block;
   text-align: center;
@@ -1763,18 +1791,18 @@ footer .copy ul li a i {
   height: 100%;
   margin-top: 30%;
 }
-/* line 65, ../sass/layout/_service.scss */
+/* line 66, ../sass/layout/_service.scss */
 #sub-serv-det .img-abt-box-s i img {
   width: 120px;
   height: auto;
 }
-/* line 70, ../sass/layout/_service.scss */
+/* line 71, ../sass/layout/_service.scss */
 #sub-serv-det .img-abt-box-s img {
   width: 100%;
   height: 580px;
   object-fit: cover;
 }
-/* line 76, ../sass/layout/_service.scss */
+/* line 77, ../sass/layout/_service.scss */
 #sub-serv-det h2 {
   font-weight: 600;
   font-size: 30px;
@@ -1782,7 +1810,7 @@ footer .copy ul li a i {
   text-align: left;
   color: #465871;
 }
-/* line 83, ../sass/layout/_service.scss */
+/* line 84, ../sass/layout/_service.scss */
 #sub-serv-det h3 {
   font-weight: 500;
   font-size: 18px;
@@ -1793,7 +1821,7 @@ footer .copy ul li a i {
   display: block;
   padding: 30px 0px;
 }
-/* line 93, ../sass/layout/_service.scss */
+/* line 94, ../sass/layout/_service.scss */
 #sub-serv-det p {
   font-weight: normal;
   font-size: 16px;
@@ -1801,11 +1829,11 @@ footer .copy ul li a i {
   text-align: left;
   color: #6d819c;
 }
-/* line 101, ../sass/layout/_service.scss */
+/* line 102, ../sass/layout/_service.scss */
 #sub-serv-det .s-cont-box {
   padding: 30px;
 }
-/* line 103, ../sass/layout/_service.scss */
+/* line 104, ../sass/layout/_service.scss */
 #sub-serv-det .s-cont-box a {
   display: inline-block;
   height: 45px;
@@ -1819,18 +1847,18 @@ footer .copy ul li a i {
   color: #465871;
   margin-right: 5px;
 }
-/* line 115, ../sass/layout/_service.scss */
+/* line 116, ../sass/layout/_service.scss */
 #sub-serv-det .s-cont-box a i {
   display: inline-block;
   padding-left: 10px;
 }
-/* line 120, ../sass/layout/_service.scss */
+/* line 121, ../sass/layout/_service.scss */
 #sub-serv-det .s-cont-box a:hover i {
   padding-left: 20px;
   color: #F9634C;
 }
 
-/* line 130, ../sass/layout/_service.scss */
+/* line 131, ../sass/layout/_service.scss */
 #second {
   height: 60px;
   background: linear-gradient(-60deg, #fa6849 0%, #f84656 100%);
@@ -1839,19 +1867,20 @@ footer .copy ul li a i {
   top: 0px;
   left: 0px;
   z-index: 9;
+  display: none;
 }
-/* line 138, ../sass/layout/_service.scss */
+/* line 140, ../sass/layout/_service.scss */
 #second ul {
   margin: 0;
 }
-/* line 140, ../sass/layout/_service.scss */
+/* line 142, ../sass/layout/_service.scss */
 #second ul li {
   display: inline-block;
   width: 33.33%;
   float: left;
   border-right: 1px solid rgba(241, 241, 241, 0.25);
 }
-/* line 145, ../sass/layout/_service.scss */
+/* line 147, ../sass/layout/_service.scss */
 #second ul li a {
   display: block;
   line-height: 60px;
@@ -1862,26 +1891,69 @@ footer .copy ul li a i {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 156, ../sass/layout/_service.scss */
+/* line 158, ../sass/layout/_service.scss */
 #second ul li:hover {
   background: #465871;
 }
 
+/* line 167, ../sass/layout/_service.scss */
+.service-sub img {
+  height: 250px;
+}
+/* line 170, ../sass/layout/_service.scss */
+.service-sub h2 {
+  font-weight: 600;
+  margin-top: 35px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  color: #465871;
+  display: block;
+}
+/* line 179, ../sass/layout/_service.scss */
+.service-sub p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: #6d819c;
+}
+
 @media only screen and (max-width: 600px) {
-  /* line 165, ../sass/layout/_service.scss */
+  /* line 193, ../sass/layout/_service.scss */
   #second {
     bottom: 0px;
     top: inherit;
     height: auto;
   }
-  /* line 170, ../sass/layout/_service.scss */
+  /* line 199, ../sass/layout/_service.scss */
   #second ul li {
     width: 100%;
     border-bottom: 1px solid rgba(241, 241, 241, 0.25);
     border-right: none;
   }
-  /* line 174, ../sass/layout/_service.scss */
+  /* line 203, ../sass/layout/_service.scss */
   #second ul li a {
     line-height: 40px;
+  }
+
+  /* line 209, ../sass/layout/_service.scss */
+  #sub-serv-det .img-abt-box-s {
+    height: 280px;
+  }
+  /* line 211, ../sass/layout/_service.scss */
+  #sub-serv-det .img-abt-box-s img {
+    height: 280px;
+  }
+
+  /* line 215, ../sass/layout/_service.scss */
+  .sv-box-tr {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 221, ../sass/layout/_service.scss */
+  .sv-box-tr {
+    margin-bottom: 20px;
   }
 }
